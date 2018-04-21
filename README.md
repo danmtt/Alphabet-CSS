@@ -1,42 +1,35 @@
-## This is my way to say hello to everyone reading this!
+## This is my way to say hello to the GIT community and to everyone reading this!
 
-# My very first web page...
-*A tiny documentation of My very first web page*
+# My very first git project...
+*A tiny documentation of My very first GIT project*
 
 ### What is this?
 
-This is a web page containing the most common languages, tools and links pointing the needed knowledge to develop a project
+This is a project aimed to apply as much as CSS rules learnt during the first 3 modules on Full Stack Developer course.
 
-### Is this web page ready?
+### Is this project ready?
 
-Yes, I followed all the intructions explained in the video and also I contributed, for the very first time, to update some code containing a broken link to an image.
+As you can see, there are many folders containing the steps taken. It is not finished and I understand it won't ever be. 
+As soon as I learn a new CSS rule that I think it can match, I try to upload it to the code...
 
-## Web structure
+## Project Structure
 
-- Three HTMLs with links in rows.
+- Several folders numbered to track and check the develop achieved.
 
-## Table of Contents (HTML Code links)
+## History
 
-- [Stream one](https://github.com/danmtt/my-first-website/blob/master/index.html "Stream One")
-- [Stream Two](https://github.com/danmtt/my-first-website/blob/master/stream-two.html "Stream Two")
-- [Stream Three](https://github.com/danmtt/my-first-website/blob/master/stream-three.html "Stream Three")
-
+- Alphabet_01: In this folder it can be found the first HTML file aimed to design the structure and the first CSS file with the very first rules applied to the HTML
 
 
-## Contributions
+## Table of Contents (HTML / CSS links)
 
-If you decide to help me improving this piece of simple code perhaps it could be a good starting point for newbies like me in the future. Go for it!
-
-- Fork the repo
-- Give a pull request
-
-Thanks!!
-
+- [Alphabet_01 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_01/index.html "Alphabet_01 HTML file")
+- [Alphabet_01 - index.css](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_01/index.css "Alphabet_01 CSS file")
 <br>
 
 [![danmtt](https://avatars3.githubusercontent.com/u/37252746?s=460&v=4)](https://github.com/danmtt)
 
-*Contributors will be thanked and list updated after PR.*
+Thanks!!
 
 License
 ----
