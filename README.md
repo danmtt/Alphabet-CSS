@@ -24,6 +24,8 @@ As soon as I learn a new CSS rule that I think it can match, I try to upload it 
 
 - Alphabet_03: This folder contains changes in the HTML structure and new CSS rules. Slight changes made because starting the Animations chapter. Waiting to finish it to apply more changes... 
 
+- Alphabet_04: In this folder CSS animations start to appear. Let's make them dance and see if the match the final goal for the site: Practice, practice and practice and to make the site approachable to any age and funny!
+
 ## Table of Contents (HTML / CSS links)
 
 - [Alphabet_01 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_01/index.html "Alphabet_01 HTML file")
@@ -32,6 +34,8 @@ As soon as I learn a new CSS rule that I think it can match, I try to upload it 
 - [Alphabet_02 - index.css](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_02/index.css "Alphabet_02 CSS file")
 - [Alphabet_03 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_03/index.html "Alphabet_03 HTML file")
 - [Alphabet_03 - index.css](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_03/index.css "Alphabet_03 CSS file")
+- [Alphabet_04 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_04/index.html "Alphabet_04 HTML file")
+- [Alphabet_04 - index.css](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_04/index.css "Alphabet_04 CSS file")
 
 [![danmtt](https://avatars3.githubusercontent.com/u/37252746?s=460&v=4)](https://github.com/danmtt)
 
