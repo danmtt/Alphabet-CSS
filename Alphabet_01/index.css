@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:deepskyblue;
+	/*background-attachment:scroll;*/
+}
+
+/*semantics*/
+
+header{
+	width: 95%;
+	height: 50px;
+	/*margin: 0 auto;*/
+	border: 2px #F8070B;
+	background-color:#F38D0D;
+
+	font-size: 40px;
+	font-weight: bold;
+	text-align:center;
+	text-transform: capitalize;
+	
+	left: 2.5%;
+	top: 2.5%;
+	position: fixed;
+}
+
+article{
+	margin: 5%;
+	color:  #FBF0F1;
+	text-align:center;
+	border: 2px solid #020FF8;
+	background-color:#7E6868;
+		
+}
+		
+#ws{position: fixed;}
+
+/*wrappers*/
+		
+.wrp{
+	box-sizing: border-box;
+	margin: 2.5%;
+	border: 2px double border #ED0FF3;
+	float: left;
+	background:#7E6868;
+	top:50%;
+	position:relative;}
+
+.side{
+	box-sizing: border-box;
+	max-width: 15%;
+	border: solid 2px #F10D11;
+	background-color:#EDE6E6;
+	float: left;	
+	color:#000000;}
+
+.main{
+	box-sizing: border-box;
+	width: 75%;
+	height: 30%;
+	top:50%;
+	position:relative;}
+
+.bench{ 
+	box-sizing: border-box;
+	width: 50%;
+	height: 40%;}		
+
+.bed{ 
+	box-sizing: border-box;
+	width: 75%;
+	height: 40%;}	
+
+.chr{
+	box-sizing: border-box;
+	width: 20%;
+	height: 40%;}
+
+.logo{
+	box-sizing: border-box;
+	width: 95%;
+	height: 50px;
+	background-color:#F38D0D;
+
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;}
+
+/*inside wrappers*/
+		
+.row{
+	box-sizing: border-box;
+	width: 95%;
+	height: 100px;
+	margin: 2.5%;
+	border: 2px solid #F80307;
+	}
+		
+/*inside rows*/
+
+.kl{
+	box-sizing: border-box;
+	width: 5%;
+	height: 50px;
+	margin: 25px;
+	border: 2px solid #F80307;
+	float: left;
+	background-size: 100%;
+	background-position: center;}
+
+.klbench{			
+	width: 10%;}
+
+.klbed{			
+	box-sizing: border-box;
+	width: 8%;
+	height: 100px;}
+
+.klchr{
+	width: 95%;
+	height: 95%;
+	padding:2.5%}
+
+/*forms*/
+	
+/*form right*/	
+.fm_right{
+	box-sizing: border-box;
+	max-width: 15%;
+	border: solid 2px #F10D11;
+	color:#000000;
+	background-color:#EDE6E6;
+	text-align: center;
+	font-size: 15px;
+	float: right;
+	padding: 10px;
+	background-clip: padding-box;
+	left: 80%;
+	top:10%;
+	position:fixed;}
+				
+input[id="languages"] {
+	border-color:#F8070B;
+	width: 90%;
+	text-align: center;}
+input[id="numbers"] {
+	border-color:#1107F5;
+	width: 90%;
+	text-align: center;}
+input[id="symbols"] {
+	border-color: #129E56;
+	width: 90%;
+	text-align: center;}
+	
+.img{
+	resize: both;
+	}
+
+/*form contact*/	
+
+/*		.logo{
+			width: 35%;
+			height: 95%;
+			margin: 2,5%;
+			border: 2px dotted #E31B1E;
+			float: right;
+			
+			font-size: 40px;
+			font-weight: bold;
+			text-align:center;
+			text-transform: capitalize;
+		}*/
+		
+
+				
+		
+

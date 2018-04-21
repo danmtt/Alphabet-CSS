@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body{
+	background-color:#ffffff;}
+/*semantics*/
+header{
+	font-family: Gloria Hallelujah;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	background-color:#ffffff;
+
+	font-size: 45px;
+	font-weight: bold;
+	text-align:center;
+
+	left: 2.5%;
+	top: 0%;
+	position: fixed;}
+article{
+	margin: 5%;
+	color:  #ffffff;
+	text-align:center;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+
+	font-family: Gloria Hallelujah;
+	font-size: 15px;
+	color:#000000;}
+
+/*forms*/
+/*form right*/
+.fm_right{
+	box-sizing: border-box;
+	max-width: 15%;
+	background-color:#ffffff;
+
+	float: right;
+	padding: 10px;
+	background-clip: padding-box;
+	left: 80%;
+	position:fixed;
+
+	font-family: Gloria Hallelujah, bold;
+	font-size: 15px;
+	text-align: center;
+	color:#000000;}
+
+input {
+	width: 90%;
+	font-family: Gloria Hallelujah;
+	font-size: 10px;
+	text-align: center;}
+
+input[id="languages"] {
+	border-color:#F8070B;}
+
+input[id="numbers"] {
+	border-color:#1107F5;}
+
+input[id="symbols"] {
+	border-color: #129E56;}
+
+
+/*wrappers main divs*/
+.wrp{
+	box-sizing: border-box;
+	margin: 2.5%;
+	border: 2px double border #ffffff;
+	float: left;
+	background:#ffffff;
+	margin-top: 5%;}
+.side{
+	box-sizing: border-box;
+	max-width: 15%;
+	float: left;}
+.main{
+	box-sizing: border-box;
+	width: 75%;
+	height: 30%;}
+.bench{
+	box-sizing: border-box;
+	width: 50%;
+	height: 40%;}
+.bed{
+	box-sizing: border-box;
+	width: 75%;
+	height: 40%;}
+
+.chr{
+	box-sizing: border-box;
+	width: 20%;
+	height: 40%;}
+
+.logo{
+	box-sizing: border-box;
+	width: 95%;
+	height: 50px;
+	background-color:#ffffff;
+
+
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;}
+
+/*wrappers inner rows divs*/
+.row{
+	box-sizing: border-box;
+	width: 95%;
+	height: 100px;
+	margin: 2.5%;
+	border: 2px solid #ffffff;}
+/*rows inner divs*/
+/*key letter div lowercase/uppercase:hover*/
+.kl{
+	box-sizing: content-box;
+	width: 5%;
+	height: 40px;
+	margin: 25px;
+	border: 2px solid #ffffff;
+	
+	float: left;
+
+	font-family: Gloria Hallelujah;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;}
+.kl:hover{
+	text-transform: uppercase;
+	transform: scale(1.5, 1.5);
+	opacity: 1;}
+/*phonetic letter div lowercase/phonetic:hover*/
+.phn{
+	box-sizing: content-box;
+	width: 5%;
+	height: 40px;
+	margin: 25px;
+	border: 2px solid #ffffff;
+
+	float: left;
+
+	font-family: Gloria Hallelujah;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;}
+	
+		
+.phn:hover{	
+	visibility: visible;
+	transform: scale(1.5, 1.5);
+	opacity: 1;}
+/*phonetic letter content:hover*/	
+.a:after{content:'a';} .a:hover:after{content:'ei';}
+.b:after{content:'b';} .b:hover:after{content:'bee';}	
+.c:after{content:'c';} .c:hover:after{content:'cee';}	
+
+
+.num{
+	width: 10%;
+	height: 70px;
+	font-size: 40px;}
+
+.sign{
+	width: 8%;
+	height: 100px;
+	font-size: 40px;}
+
+.klchr{
+	width: 95%;
+	height: 95%;
+	padding:2.5%}
+
+.klchr:hover{
+	transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+    opacity: 1;}
+.img{
+	resize: both;
+	}
+.logo{
+	width: 35%;
+	height: 95%;
+	margin: 2,5%;
+	border: 2px dotted #E31B1E;
+	/* float: right; */
+
+	font-family: Gloria Hallelujah;
+	color:  #ffffff;font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;}
+	
+
+
+
+
+

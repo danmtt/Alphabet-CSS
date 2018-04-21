@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* GOOGLE FONT IMPORT*/
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+/* SEMANTIC ELEMENTS */
+
+body{
+	background-color:#ffffff;
+	margin:0;
+	padding:0;
+	font-family: Gloria Hallelujah;
+	color: #000000;}
+	
+header{
+	z-index: 1;
+	width: 95%;
+	height: 15%;
+	left: 2.5%;
+	right: 2.5%;
+	top: 0;
+	background-color:#ffffff;
+	position: fixed;}
+	
+nav{	
+	width: 95%;
+	left: 2.5%;
+	float:left;
+	position: relative;}
+	
+main{
+	margin: 15% 0;
+	width: 95%;}
+	
+/* HEADER CLASS CSS */
+	
+.title{
+	width: 100%;
+	height: 70%;
+	float: left;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;}
+
+.nav{
+	z-index: 1;
+	width: 33.33%;
+	height: 30%;
+	float:left;
+	text-align: center;
+	transition-property: background-color,color;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;}
+	
+.nav:hover{
+	background-color: #000;
+	color: #ffffff;}
+
+/* HEADER - NAV FORM OPTIONS*/
+
+select {
+	width: 90%;
+	font-family: Gloria Hallelujah;
+	font-size: 15px;
+	text-transform: capitalize;}
+
+select[name="languages"] {
+	border-color:#F8070B;}
+	
+select[name="numbers"] {
+	border-color:#1107F5;}
+	
+select[name="symbols"] {
+	border-color:#129E56;}
+
+input {
+	width: 90%;
+	font-family: Gloria Hallelujah;
+	font-size: 10px;
+	text-align: center;}
+
+input[id="languages"] {
+	border-color:#F8070B;}
+
+input[id="numbers"] {
+	border-color:#1107F5;}
+
+input[id="symbols"] {
+	border-color: #129E56;}
+	
+/* MAIN CLASS CSS */
+
+.wrapper{
+	box-sizing: border-box;
+	width: 90%;
+	margin: 2.5% 5%;
+	border: 2px double #ffffff;
+	float: left;
+	background:#ffffff;
+	font-size: 10px;}
+	
+.column-60{
+	width: 60%;
+	float: left;}
+	
+.column-40{
+	width: 40%;
+	float: left;}
+
+/* INSIDE WRAPPER CLASS CSS */
+
+.lbl{
+	width: 100%;
+	height: 40px;
+	margin: 10px;
+	float: left;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;
+	transition-property: width, height;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+.lbl:hover{
+	width: 110%;
+	height:50px;}
+
+.kl{
+	width: 40px;
+	height: 40px;
+	margin: 15px;
+	float: left;
+	background-color: #000;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+	transition-property: background-color,border-radius;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;}
+	
+.kl:hover{
+	border-radius: 90px;
+	background-color: #808080;
+	text-transform: uppercase;
+	transform: scale(1.5, 1.5);
+	opacity: 1;}
+	
+.phn{
+	width: 40px;
+	height: 40px;
+	margin: 15px;
+	float: left;
+	background-color: #000;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+	transition-property: font-size,background-color,border-radius;
+	transition-duration: .5s;
+	transition-timing-function: ease-in-out;}
+	
+.phn:hover{	
+	font-size: 15px;
+	border-radius: 90px;
+	background-color: #808080;
+	transform: scale(1.5,1.5);
+	/*font-size: 1em;*/
+	opacity: 1;}
+	
+/* PHONETIC ENGLISH CONTENT CHANGE ON :hover */
+
+.a:after{content:'a';} .a:hover:after{content:'ei';}
+.b:after{content:'b';} .b:hover:after{content:'bee';}	
+.c:after{content:'c';} .c:hover:after{content:'cee';}
+.d:after{content:'d';} .d:hover:after{content:'dee';}
+.e:after{content:'e';} .e:hover:after{content:'ee';}
+.f:after{content:'f';} .f:hover:after{content:'ef';}
+.g:after{content:'g';} .g:hover:after{content:'gee';}
+.h:after{content:'h';} .h:hover:after{content:'eich';}
+.i:after{content:'i';} .i:hover:after{content:'ai';}
+.j:after{content:'j';} .j:hover:after{content:'gei';}
+.k:after{content:'k';} .k:hover:after{content:'kei';}
+.l:after{content:'l';} .l:hover:after{content:'el';}
+.m:after{content:'m';} .m:hover:after{content:'em';}
+.n:after{content:'n';} .n:hover:after{content:'en';}
+.o:after{content:'o';} .o:hover:after{content:'ou';}
+.p:after{content:'p';} .p:hover:after{content:'pi';}
+.q:after{content:'q';} .q:hover:after{content:'kiu';}
+.r:after{content:'r';} .r:hover:after{content:'ar';}
+.s:after{content:'s';} .s:hover:after{content:'es';}
+.t:after{content:'t';} .t:hover:after{content:'ti';}
+.u:after{content:'u';} .u:hover:after{content:'iu';}
+.v:after{content:'v';} .v:hover:after{content:'vi';}
+.w:after{content:'w';} .w:hover:after{content:'dbliu';}
+.x:after{content:'x';} .x:hover:after{content:'eks';}
+.y:after{content:'y';} .y:hover:after{content:'guay';}
+.z:after{content:'z';} .z:hover:after{content:'sed';}
+
+/*numbers*/
+
+.num{
+	width: 40px;
+	height: 40px;
+	margin: 25px;
+	float: left;
+	font-size: 20px;
+	color:  #ffffff;
+	text-align: center;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;}		
+.num:hover{
+	transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
+	opacity: 1;}
+.img{
+	box-sizing: content-box;
+	margin: 50px 25px 25px 25px;
+	width: 100%;
+	height: 90%;
+	border: 2px solid #ffffff;
+	float: left;}
+	
+.sign{
+	width: 8%;
+	height: 100px;
+	font-size: 40px;}
+
+.footer{
+	width: 80%;
+	height: 100%;
+	margin: 5%;
+	border: 2px dotted #E31B1E;
+	float: left; 
+
+	font-family: Gloria Hallelujah;
+	color:  #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+
+	background-color: #000000;
+	background-size: 100%;
+	background-position: center;}
+
+/* MEDIA QUERIES
+------------------------------------------------------------*/
+
+
