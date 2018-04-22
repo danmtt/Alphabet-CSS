@@ -29,7 +29,6 @@ nav{
 	left: 2.5%;
 	height: 50%;
 	float:left;}
-	/*position: relative;}*/
 	
 main{
 	margin: 15% 0;
@@ -251,5 +250,33 @@ input[id="symbols"] {
 
 /* MEDIA QUERIES
 ------------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+	/*nav{	*/
+	/*	width: 95%;*/
+	/*	left: 2.5%;*/
+	/*	height: 50%;*/
+	/*	float:left;}*/
+		
+	main{
+		margin: 55% 0;
+		width: 100%;}
+	
+	.title{
+		height: 20%;
+		float: left;}
+		
+	.nav{
+		width: 100%;
+		margin: 5px;}
+		
+	.wrapper{
+		width: 100%;
+		margin: 2.5% 5%;
+		float: left;
+		background:#ffffff;
+		font-size: 10px;}
+	}
 
 
