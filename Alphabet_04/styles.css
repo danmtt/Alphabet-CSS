@@ -16,9 +16,8 @@ body{
 	color: #000000;}
 	
 header{
-	z-index: 1;
 	width: 95%;
-	height: 15%;
+	height: 25%;
 	left: 2.5%;
 	right: 2.5%;
 	top: 0;
@@ -28,27 +27,30 @@ header{
 nav{	
 	width: 95%;
 	left: 2.5%;
-	float:left;
-	position: relative;}
+	height: 50%;
+	float:left;}
+	/*position: relative;}*/
 	
 main{
 	margin: 15% 0;
-	width: 95%;}
+	width: 95%;
+	height: 75%;}
+footer{
+	width: 95%;
+	height: 10%;}
 	
-/* HEADER CLASS CSS */
+/* HEADER ELEMENTS CSS */
 	
 .title{
 	width: 100%;
-	height: 70%;
+	height: 50%;
 	float: left;
 	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;}
 
 .nav{
-	z-index: 1;
 	width: 33.33%;
-	height: 30%;
 	float:left;
 	text-align: center;
 	transition-property: background-color,color;
@@ -94,10 +96,8 @@ input[id="symbols"] {
 /* MAIN CLASS CSS */
 
 .wrapper{
-	box-sizing: border-box;
 	width: 90%;
 	margin: 2.5% 5%;
-	border: 2px double #ffffff;
 	float: left;
 	background:#ffffff;
 	font-size: 10px;}
@@ -109,11 +109,15 @@ input[id="symbols"] {
 .column-40{
 	width: 40%;
 	float: left;}
+	
+.video{
+	margin: 15px 45px;
+	float: left;}
 
 /* INSIDE WRAPPER CLASS CSS */
 
 .lbl{
-	width: 100%;
+	width: 90%;
 	height: 40px;
 	margin: 10px;
 	float: left;
@@ -130,8 +134,8 @@ input[id="symbols"] {
 }
 
 .lbl:hover{
-	width: 110%;
-	height:50px;}
+	width: 95%;
+	height: 50px;}
 
 .kl{
 	width: 40px;
@@ -171,7 +175,6 @@ input[id="symbols"] {
 	border-radius: 90px;
 	background-color: #808080;
 	transform: scale(1.5,1.5);
-	/*font-size: 1em;*/
 	opacity: 1;}
 	
 /* PHONETIC ENGLISH CONTENT CHANGE ON :hover */
@@ -221,11 +224,9 @@ input[id="symbols"] {
 	transform: scale(1.5, 1.5); /** default is 1, scale it to 1.5 */
 	opacity: 1;}
 .img{
-	box-sizing: content-box;
 	margin: 50px 25px 25px 25px;
 	width: 100%;
 	height: 90%;
-	border: 2px solid #ffffff;
 	float: left;}
 	
 .sign{
@@ -237,10 +238,8 @@ input[id="symbols"] {
 	width: 80%;
 	height: 100%;
 	margin: 5%;
-	border: 2px dotted #E31B1E;
 	float: left; 
 
-	font-family: Gloria Hallelujah;
 	color:  #ffffff;
 	font-size: 15px;
 	font-weight: bold;
