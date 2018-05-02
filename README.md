@@ -28,6 +28,11 @@ As soon as I learn a new CSS rule that I think it can match, I try to upload it 
 
 ## Table of Contents (HTML / CSS links)
 
+### Last project update (git-page):
+- [Alphabet_css - index.html](https://github.com/danmtt/alphabet-css/blob/master/index.html "!Last HTML file")
+- [Alphabet_css - styles.css](https://github.com/danmtt/alphabet-css/blob/master/styles.css "!Last CSS file")
+
+### Last update on step folders:
 - [Alphabet_01 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_01/index.html "Alphabet_01 HTML file")
 - [Alphabet_01 - index.css](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_01/index.css "Alphabet_01 CSS file")
 - [Alphabet_02 - index.html](https://github.com/danmtt/alphabet-css/blob/master/Alphabet_02/index.html "Alphabet_02 HTML file")
