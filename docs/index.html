@@ -23,7 +23,7 @@
 					<div class="col-xs-12 text-center header_title">World´s Alphabet Jumble</div>
 				</div>
 			</header>
-			<!-- /header -->
+			<!-- ./header -->
 			<!-- nav -->
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -62,83 +62,21 @@
 		<!-- main -->
 		<div class="container-wrapper">
 			<div class="container-fluid main_css">
-			
-			<!-- opaque layer over background  -->		
+				<!-- opaque layer over background  -->		
 				<div class="opaque-overlay">&nbsp;</div>
-			<!-- ./opaque layer over background  -->	
-			
-			<!-- welcome -->
-			
-			
+				<!-- ./opaque layer over background  -->
+				<!-- welcome -->
 				<div class="row">
 					<div class="col-xs-12">
-						
-						<!--STUMBLE1 - Text in <h1> starts aligned to the right no matter what property applied-->
-						<!--Ttext-center only seemss to works in second <h1> inside <jumbotron>. Tried several-->
-						<!--css attempts with google tools on child elements <.jumbotron h1>, <.monster_box> and also-->
-						<!--resizing images but none of them worked out. Then tried to combine changes in HTML and new-->
-						<!--CSS classes but neither could change <h1> beahviour's-->
-						
 						<section class="jumbotron text-center welcome">
-							
-							<!--<div>-->
 							<a href="#"><img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left"></a>
 							<a href="#"><img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right"></a>
 							<h1>Welcome to the alphabet jumble!</h1>
-							<!--</div>-->
-							
-						<!-- STUMBLE1 - TRY 1 - Erase .text-center and try css changes with google tools-->
-						<!--<section class="jumbotron welcome">-->
-							
-							<!-- STUMBLE1 - TRY 2 - Move images inside box and apply class .monster_box-->
-							<!--<div class="monster_box">-->
-							<!--	<a href="#"><img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left"></a>-->
-							<!--	<a href="#"><img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right"></a>-->
-							<!--</div>-->
-							
-							<!-- STUMBLE1 - TRY 3  - -->
-							<!--<a href="#"><img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left"></a>-->
-							<!--<a href="#"><img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right"></a>-->
-							
-							<!-- STUMBLE1 - TRY 4 -->
-							<!--<img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left">-->
-							<!--<img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right">-->
-							
-						<!-- STUMBLE1 - SOLVED! Best tip from @eventyret after asking for help in STACK - User-centric-frontend. -->
-						
-						<!-- Hi, this is my first time asking for help since I started and perhaps it is a silly question... I started a miniproject on my -->
-						<!-- own at the beginning to apply all the learnings from the course and now that I am applying working with the bootstrap library -->
-						<!-- on it, I am a bit stacked. It is related about some images that I am trying to include into the jumbotron followed by some -->
-						<!-- text. Could anybody, please, have a look into it and see what I am coding wrongly? No rush on it, I can continue with other -->
-						<!-- lessons but any support is welcome. here comes the link to github: -->
-						<!-- https://github.com/danmtt/alphabet-css/blob/master/docs/index.html -->
-						<!-- I have left some comments with the "stumble" from lines 76 to 105. Thanks in advance:slightly_smiling_face: -->
-
-						<!--"@Daniel M I would not suggest use float left or right, rather set a width then adjust it with margins -->
-						<!-- etc :slightly_smiling_face: You float things then you have to clear it after as well" -->
-						
-						<!-- "@eventyret Thanks for the tip...working on it... sometimes I tend to make it complicated when it is not needed" -->
-						
-						<!-- "Yeah we all do :stuck_out_tongue: I did the same now in my stream 3 I was doing input and outputs in angular-->
-						<!-- to pass data, then i found out it was a service and already doing it :man-facepalming::skin-tone-2: waste of -->
-						<!-- 30 min debug. But glad it worked out @Daniel M play by KISS and DRY :wink:" -->
-						
-						<!-- @eventyret Done! Found an property blocking the behaviour between img and h1...:dart::+1:-->
-						
-						<!-- So this converstion made me think about display properties inherited by elements and then found the one 
-						<!-- crashing between img and h1 . It was .img-responsive ´{ display: block;} so changed to -->
-						<!-- .img-responsive ´{ display: inherit} , modifying also property max-width:100% to max-width: 45% to make it work in -->
-						<!-- all mobile resolutions available in Google.tools workspace. Doing the change to display poperty, inline is inherited -->
-						<!-- its parent, <a>. Bravo for the tip! Sometimes we focus in bigger changes not thinking in small ones! --> 
-											
 							<hr class="theme-divider theme-divider-red">
-							
 							<a href="#"><img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left"></a>
 							<a href="#"><img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right"></a>
 							<h1>Bienvenid@ al revoltijo de alfabetos!</h1>
-							
 							<hr class="theme-divider theme-divider-red">
-							
 							<a href="#"><img class="img-responsive monster_left" src="img/crazy_emoticon_yellow.png"  alt="monster left"></a>
 							<a href="#"><img class="img-responsive monster_right" src="img/crazy_emoticon_darkgreen.png" alt="monster right"></a>
 							<h1>欢迎来到字母表混杂！</h1>
