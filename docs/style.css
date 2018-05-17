@@ -148,18 +148,18 @@ body{
 
 .jumbotron {
     background-color: transparent;
-    /*margin-top: 125px;*/
 }
-.welcome{
-	margin-top: 125px;}
+.welcome, .low_upp{
+	margin-top: 125px;
+}
 
-/*<!-- ISSUE 1 - TRY 2 -->*/
+.briefing, .low_phon, .numbers, .symbols{
+	margin-top: 50px;	
+}
 
-/*.monster_box{*/
-/*	    width: 100%;*/
-/*	    margin: 50px;*/
-/*}*/
-
+.symbols{
+margin-bottom: 50px;	
+}
 .jumbotron h1{
     font-weight: bold;
     margin-bottom: 30px;
@@ -190,20 +190,27 @@ body{
     border-radius: 20px;
     background-color: #251b14;
     color: #ffff00;
+    margin-top: 25px;
 }
+.btn:hover {
+    color: #c52828;
+    text-decoration: none;}
+    
+/*.btn_style:hover:after{*/
+/*    border: 1px solid  #c52828;*/
+/*	}*/
     
 /* Footer */
 
 .footer_css{
 	background-color: #251b14;
-
 }
 
 .footer_text{
 	font-size: 2.5em;
     color: #c52828;
-	
 }
+
 /* --------------------------------------------------------------------*/
 /* Media */
 

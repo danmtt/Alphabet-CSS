@@ -7,7 +7,7 @@
 		<meta name="description" content="Alphabet CSS">
 		<meta name="keywords" content="alphabet, letter, consonant, vowel,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z">
 		<meta name="author" content="DmtDmt">
-		<title>World´s Alphabets Jumble</title>
+		<title>World's Alphabet Jumble</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 		<link href="../style.css" rel="stylesheet" type="text/css" />
@@ -20,7 +20,7 @@
 			<!-- header -->
 			<header>
 				<div class="row container-fluid">
-					<div class="col-xs-12 text-center header_title">World´s Alphabets Jumble</div>
+					<div class="col-xs-12 text-center header_title">World's Alphabet Jumble</div>
 				</div>
 			</header>
 			<!-- ./ header -->
@@ -45,12 +45,11 @@
 				            	<li role="presentation"><a href="../index.html">Home</a></li>
 					  			<li role="presentation"><a href="en.html">English</a></li>
 					  			<li role="presentation"><a href="es.html">Spanish</a></li>
-					  			<li role="presentation"><a href="#">Chinese</a></li>
-				                <li class="visible-xs"><a href="#">Sign In</a></li>
+					  			<li class="visible-xs"><a href="#" data-toggle='modal' data-target='#logInModal'>Log In!</a></li>
 				        	</ul>
 				      	<div class="navbar-header navbar-right hidden-xs">
-			                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
-			                    <p class="navbar-text"><i>Wanna see more? Join us!</i></p>
+			                    <a href="#" data-toggle='modal' data-target='#logInModal'>Log In!</a>
+			                    <p class="navbar-text"><i>Want to see more Alphabets?</i></p>
 			                </div>
 				    </div>
 			    </div>
@@ -69,7 +68,7 @@
 				<!-- section lowercase-uppercase -->
 				<div class="row">
 					<div class="col-xs-12">
-						<section class="jumbotron text-center welcome">
+						<section class="jumbotron text-center low_upp">
 							<!-- letters -->
 							<div class="row col-xs-12 col-md-8">
 								<div class="lbl">Lowercase / Uppercase</div>
@@ -115,7 +114,7 @@
 				<!-- section lowercase-phonetics -->
 				<div class="row">
 					<div class="col-xs-12">
-						<section class="jumbotron text-center welcome">
+						<section class="jumbotron text-center low_phon">
 							<!-- letters -->
 							<div class="row col-xs-12 col-md-8">
 								<div class="lbl">Lowercase / Phonetics</div>
@@ -161,7 +160,7 @@
 				<!-- section numbers-->
 				<div class="row">
 					<div class="col-xs-12">
-						<section class="jumbotron text-center welcome">
+						<section class="jumbotron text-center numbers">
 							<!-- numbers -->
 							<div class="row col-xs-12 col-md-8">
 								<div class="lbl">Numbers / Phonetics</div>
@@ -212,7 +211,7 @@
 							<!-- ./numbers -->
 							<!-- media -->
 							<div class="row col-xs-12 col-md-4">
-								<div class="lbl">How do I spell the numbers?</div>
+								<div class="lbl">How do I pronounce the numbers?</div>
 								<iframe class="media" src="https://www.youtube.com/embed/wfTWRq7RFyQ?modestbranding=0&controls=0&showinfo=0" frameborder="0"></iframe>
 							</div>
 							<!-- ./media -->
@@ -224,7 +223,7 @@
 				<!-- section symbols-->
 				<div class="row">
 					<div class="col-xs-12">
-						<section class="jumbotron text-center welcome">
+						<section class="jumbotron text-center symbols">
 							<!-- symbols -->
 							<div class="row col-xs-12 col-md-8">
 								<div class="lbl">Mathematic Symbols / Phonetics</div>
@@ -239,11 +238,13 @@
 							<!-- ./symbols -->
 							<!-- media -->
 							<div class="row col-xs-12 col-md-4">
-								<div class="lbl">How do I read the symbols?</div>
+								<div class="lbl">How do I pronounce the Mathematic Symbols?</div>
 								<iframe class="media" src="https://www.youtube.com/embed/wfTWRq7RFyQ?modestbranding=0&controls=0&showinfo=0" frameborder="0"></iframe>
 							</div>
 							<!-- ./media -->
+							<a href="#top"><button class="btn btn-lg btn_style" >Back to the top!</button></a>
 						</section>	
+						
 					</div>
 				</div>
 				<!-- ./ section symbols-->
@@ -260,24 +261,57 @@
 				</div>
 			</section>
 		</div>
+		
+		
 		<!--/footer-->
 		 
-		<!-- Modal -->
+		<!-- Modal Sign Up-->
+	    <div class="modal fade" id="logInModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	        <div class="modal-dialog" role="document">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	                    <h4 class="modal-title" id="logInModal">Log In to World's Aphabet Jumble!</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <form>
+	                        <div class="form-group">
+	                            <label for="email">Email Address</label>
+	                            <input type="email" class="form-control" id="email" placeholder="Email">
+	                            <p class="help-block">We'll never share your email address with anyone!</p>
+	                        </div>
+	                        <div class="form-group">
+	                            <label for="password">Password</label>
+	                            <input type="password" class="form-control" id="password" placeholder="Password">
+	                        </div>
+	                        <button type="submit" class="btn btn-success">Log In!</button>
+	                    </form>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- ./Modal Log In -->
+	    
+	    <!-- Modal Sign Up -->
 	    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	        <div class="modal-dialog" role="document">
 	            <div class="modal-content">
 	                <div class="modal-header">
 	                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	                    <h4 class="modal-title" id="myModalLabel">Sign Up For World´s Alphabet Jumble!</h4>
-	                    <h4 class="modal-title" id="myModalLabel">Registrate en Alfabetos del mundo!</h4>
-	                    <h4 class="modal-title" id="myModalLabel">注册世界的字母！</h4>
+	                    <h4 class="modal-title" id="myModalLabel">Sign Up For World's Aphabet Jumble!</h4>
 	                </div>
 	                <div class="modal-body">
 	                    <form>
+	                        
 	                        <div class="form-group">
-	                            <label for="email">Email address</label>
+	                            <label for="username">User Name</label>
+	                            <input type="name" class="form-control" id="username" placeholder="Username">
+	                            <p class="help-block">Use your name to talk with other users and practice!</p>
+	                        </div>
+	                        <div class="form-group">
+	                            <label for="email">Email Address</label>
 	                            <input type="email" class="form-control" id="email" placeholder="Email">
-	                            <p class="help-block">We'll never share your email address with anyone</p>
+	                            <p class="help-block">We'll never share your email address with anyone!</p>
 	                        </div>
 	                        <div class="form-group">
 	                            <label for="password">Password</label>
@@ -293,7 +327,7 @@
 	            </div>
 	        </div>
 	    </div>
-	    <!-- ./Modal -->
+	    <!-- ./Modal Register -->
 	    
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
